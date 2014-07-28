@@ -6,7 +6,7 @@
 #define I2P_H
 
 #include "util.h"
-#include "i2psam.h"
+//#include "i2psam.h"
 
 #define I2P_NET_NAME_PARAM              "-i2p"
 
