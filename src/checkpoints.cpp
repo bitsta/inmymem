@@ -347,7 +347,7 @@ namespace Checkpoints
 }
 
 // harmonycoin: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "0411582e4e718df82c9d75a4886ab7602f0a1b866d81a4e44acba04e847ccd0514b97bee4a61fa73b1474d12851422b01565f244f722f318f1608258b74a3f3fe6";
+const std::string CSyncCheckpoint::strMasterPubKey = "04b2272e0e2e49b2a1046cf60a9e7213efbe01d841f141e780b857ffb8da8abc2c6273af8a8065d47c578b540bc7fa83077cfb0dbe17e29fb19e4a9d6de417f2c6";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
