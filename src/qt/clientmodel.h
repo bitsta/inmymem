@@ -42,6 +42,7 @@ public:
     QString formatBuildDate() const;
     QString clientName() const;
     QString formatClientStartupTime() const;
+    bool isTorOnly() const;
 
 private:
     OptionsModel *optionsModel;

@@ -111,6 +111,11 @@ int ClientModel::getNumBlocksOfPeers() const
     return GetNumBlocksOfPeers();
 }
 
+bool ClientModel::isTorOnly() const
+{
+ return IsTorOnly();
+}
+
 QString ClientModel::getStatusBarWarnings() const
 {
     return QString::fromStdString(GetWarnings("statusbar"));

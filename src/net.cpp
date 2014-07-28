@@ -22,6 +22,7 @@
 #include <miniupnpc/upnpcommands.h>
 #include <miniupnpc/upnperrors.h>
 #endif
+#define TOR_NET_STRING "tor"
 
 using namespace std;
 using namespace boost;
